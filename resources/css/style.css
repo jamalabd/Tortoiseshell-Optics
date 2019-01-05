@@ -1,0 +1,24 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+
+
+span {
+  color: white;
+  font-weight: bold;
+}
+
+
+
+div.banner {
+  display: flex;
+  width: 960px;
+  background-color: cadetblue;
+
+}
+
+nav.n {
+
+}

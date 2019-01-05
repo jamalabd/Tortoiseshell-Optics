@@ -1,14 +1,39 @@
 html {
   font-size: 18px;
-  line-height: 1.4;
+  background-color: white;
+  font-family: helvetica,sans-serif;
 }
 
-
+body {
+    line-height: 1.4;
+}
 
 span {
   color: white;
   font-weight: bold;
 }
+
+ul {
+  display: flex;
+
+}
+
+
+ul li {
+  color: white;
+  margin-right: 2rem;
+}
+
+
+
+
+.banner {
+  padding: 1rem 0;
+}
+
+
+
+
 
 
 
@@ -16,9 +41,31 @@ div.banner {
   display: flex;
   width: 960px;
   background-color: cadetblue;
+  height: 1.5rem;
+  margin-top: 1rem;
+
 
 }
 
 nav.n {
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+}
 
+.banner img {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+
+
+
+.banner span {
+  margin-right: 19rem;
+  font-weight: normal;
 }

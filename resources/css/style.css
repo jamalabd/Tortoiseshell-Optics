@@ -73,6 +73,7 @@ div.banner {
   height: 1.5rem;
 }
 
+
 nav.n {
   display: flex;
   align-items: center;
@@ -175,4 +176,54 @@ div.wraper {
   padding: 4rem 1rem 4rem 4rem;
   display: flex;
 
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+  div.banner {
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 5rem;
+  }
+
+
+  nav.n {
+    height: 22rem;
+  }
+
+
+  .main-banner h1 {
+    padding: 0.77rem 4rem;
+    font-weight: bold;
+    font-size: 1.33rem;
+    line-height: 1.2;
+
+  }
+
+  div.top-container {
+  display: flex;
+  width: 100%;
+  margin-right: 2rem;
+
+  }
+
+
+.main-banner {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+}
+
+  .banner span {
+    margin-right: 7rem;
+}
+
+   footer {
+    width: 100%;
+}
+
+
+div.info {
+  width: 100%;
 }

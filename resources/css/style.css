@@ -24,6 +24,27 @@ ul li {
   margin-right: 2rem;
 }
 
+div h1 {
+  color: black;
+
+}
+
+footer {
+  display: flex;
+  background-color: azure;
+  margin-top: 5rem;
+  width: 960px;
+  margin: auto;
+}
+
+
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+
+/*Classes*/
 
 
 
@@ -31,9 +52,15 @@ ul li {
   padding: 1rem 0;
 }
 
+.main-banner {
+  display: flex;
+  background-color: white;
+
+}
 
 
 
+/*Mixed*/
 
 
 
@@ -41,20 +68,35 @@ div.banner {
   display: flex;
   width: 960px;
   background-color: cadetblue;
-  height: 1.5rem;
   margin-top: 1rem;
-
-
+  margin-bottom: 10rem;
+  height: 1.5rem;
 }
 
 nav.n {
   display: flex;
-  justify-content: center;
+  align-items: center;
   background-image: url("../images/glasses-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25rem;
+  height: 30rem;
+  flex-direction: column;
+}
+
+
+div.top-container {
+display: flex;
+width: 960px;
+justify-content: flex-end;
+margin-right: -2rem;
+}
+
+.main-banner h1 {
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
 }
 
 .banner img {
@@ -68,4 +110,69 @@ nav.n {
 .banner span {
   margin-right: 19rem;
   font-weight: normal;
+}
+
+div.icon {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  width: 5rem;
+  margin: 0 3rem;
+  align-items: center;
+}
+
+
+
+ div.icons {
+  display: flex;
+  margin: 3rem 0;
+  height: 8rem;
+  justify-content: center;
+
+}
+
+.icon.a img{
+  width: 3.5rem;
+
+}
+
+.icon.b img {
+  width: 5rem;
+}
+
+.icon.c img {
+  width: 5rem;
+}
+
+
+.info span {
+  padding: 0.5rem 5rem 0.5rem 1.25rem;
+  font-size: 1rem;
+  background-color: cadetblue;
+  width: 10rem;
+}
+
+.info p {
+margin-top: 1rem;
+}
+
+
+div.info {
+  display: flex;
+  width: 960px;
+  justify-content: center;
+  margin: auto;
+}
+
+div.ph {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+div.wraper {
+  padding: 4rem 1rem 4rem 4rem;
+  display: flex;
+
 }
